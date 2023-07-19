@@ -1,0 +1,30 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <LoginDisplay/>
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://www.learmoreseekmore.com/2021/04/part3-steps-for-implementing-google-authentication-into-existing-blazor-webassembly-standalone-application.html">Made using this article</a>
+                </li>
+                <li>
+                    <a href="https://www.learmoreseekmore.com/2023/04/part3-blazorwebassembly-dotnet7-jwt-authentication-series-implement-blazor-authenticationStateProvider-invoke-secure-endpoint-using-jwt-access-token.html">Try using this article for jwt</a>
+                </li>
+                <li>
+                    <a href="https://learn.microsoft.com/en-us/aspnet/core/blazor/security/webassembly/standalone-with-authentication-library?view=aspnetcore-7.0&tabs=visual-studio">Microsoft learning on authentication</a>
+                </li>
+            </ul>
+        </div>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
