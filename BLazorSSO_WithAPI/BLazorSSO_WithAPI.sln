@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLazorSSO_WithAPI", "BLazorSSO_WithAPI\BLazorSSO_WithAPI.csproj", "{273CD8AE-82FB-434D-B089-6BD6E38587AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSSO_WithAPI", "BlazorSSO_WithAPI\BlazorSSO_WithAPI.csproj", "{273CD8AE-82FB-434D-B089-6BD6E38587AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSSO.WebAPI", "BlazorSSO.WebAPI\BlazorSSO.WebAPI.csproj", "{750E6ED5-9CFF-4D59-8055-BD11F1BAFE7E}"
 EndProject
