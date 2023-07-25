@@ -1,4 +1,4 @@
-using BLazorSSO_WithAPI;
+using BlazorSSO_WithAPI;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
