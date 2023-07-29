@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlazorSSO.Shared\BlazorSSO.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Update="wwwroot\appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

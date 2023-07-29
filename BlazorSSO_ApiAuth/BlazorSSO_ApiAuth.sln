@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSSO.ClientApp", "BlazorSSO.ClientApp\BlazorSSO.ClientApp.csproj", "{549BBBE0-DEBB-42BA-8BA8-0BC81D1F2B57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSSO.WebApi", "BlazorSSO.WebApi\BlazorSSO.WebApi.csproj", "{40B1BAE2-7AB6-4427-8007-B3FE38715335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSSO.Shared", "BlazorSSO.Shared\BlazorSSO.Shared.csproj", "{8686A165-7A85-4478-BA24-7326CD2A89F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{549BBBE0-DEBB-42BA-8BA8-0BC81D1F2B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{549BBBE0-DEBB-42BA-8BA8-0BC81D1F2B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{549BBBE0-DEBB-42BA-8BA8-0BC81D1F2B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B1BAE2-7AB6-4427-8007-B3FE38715335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B1BAE2-7AB6-4427-8007-B3FE38715335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B1BAE2-7AB6-4427-8007-B3FE38715335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B1BAE2-7AB6-4427-8007-B3FE38715335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8686A165-7A85-4478-BA24-7326CD2A89F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8686A165-7A85-4478-BA24-7326CD2A89F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8686A165-7A85-4478-BA24-7326CD2A89F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8686A165-7A85-4478-BA24-7326CD2A89F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
