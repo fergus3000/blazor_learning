@@ -1,6 +1,7 @@
 ﻿@page "/fetchdata"
 @using System.Net.Http.Json;
-@inject HttpClient Http
+@using BlazorSSO.ClientApp.HttpClients;
+@inject SecuredApiClient ApiClient
 
 <PageTitle>Weather forecast</PageTitle>
 
@@ -42,7 +43,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        forecasts = await ApiClient.GetWeatherForecast();
     }
 
     public class WeatherForecast
