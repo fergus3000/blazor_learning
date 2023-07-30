@@ -1,0 +1,10 @@
+﻿#build
+docker build -t blazor-webassembly-with-docker .
+# then you could publish it to docker hub
+docker tag blazor-webassembly-with-docker account/blazor-wasm-test1
+docker push iferguson/blazor-wasm-test1
+# then run it
+docker run -d -p 8081:80 --name wasm-sample account/blazor-wasm-test1
+
+But how to set app settings from environment params?
+https://stackoverflow.com/questions/62784604/blazor-webassembly-cant-read-environment-variables-or-find-files-when-running-i
