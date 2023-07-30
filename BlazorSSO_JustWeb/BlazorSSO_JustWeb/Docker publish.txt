@@ -1,5 +1,5 @@
 ﻿#build
-docker build -t blazor-webassembly-with-docker .
+docker build -t blazor-oidp-dockertest .
 # then you could publish it to docker hub
 docker tag blazor-webassembly-with-docker account/blazor-wasm-test1
 docker push iferguson/blazor-wasm-test1
@@ -8,3 +8,7 @@ docker run -d -p 8081:80 --name wasm-sample account/blazor-wasm-test1
 
 But how to set app settings from environment params?
 https://stackoverflow.com/questions/62784604/blazor-webassembly-cant-read-environment-variables-or-find-files-when-running-i
+NGINX 1.19 has a folder /docker-entrypoint.d on the root where place startup scripts executed by the docker-entrypoint.sh script
+NB! Be careful with newlines in this sh - CRLF will cause problems, must be LF only!!
+
+docker run -d -p 8081:80 --name wasm-sample -e GOOGLE_CLIENTID=clientid-goes-here blazor-oidp-dockertest
